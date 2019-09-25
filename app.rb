@@ -7,6 +7,6 @@ class App < Sinatra::Base
 
 post '/team' do 
   @team = params
-  erb :newteam
+  erb :team
 end
 end
