@@ -6,7 +6,10 @@
  </head>
  <body>
  
-  <%= @team %>
+  <% @team.each do |key, val| %>
+    <h3><%= val %> </h3>
+  
+  <% end %>
 
  </body>
 </html>
