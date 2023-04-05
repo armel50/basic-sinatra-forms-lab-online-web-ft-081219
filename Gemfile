@@ -3,9 +3,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem 'sinatra'
-gem 'rack-protection', '~> 2.0', '>= 2.0.1'
-gem 'rake'
+gem 'sinatra', '>= 2.2.3'
+gem 'rack-protection', '~> 2.0', '>= 2.0.5'
+gem 'rake', '>= 12.3.3'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
@@ -14,6 +14,6 @@ gem 'require_all'
 group :test do
   gem 'rspec'
   gem 'capybara'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'poltergeist'
 end
