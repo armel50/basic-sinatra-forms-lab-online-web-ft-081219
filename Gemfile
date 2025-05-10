@@ -3,8 +3,8 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem 'sinatra'
-gem 'rack-protection', '~> 2.0', '>= 2.0.1'
+gem 'sinatra', '>= 4.0.0'
+gem 'rack-protection', '~> 4.0', '>= 4.0.0'
 gem 'rake'
 gem 'thin'
 gem 'shotgun'
