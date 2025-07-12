@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'rack-protection', '~> 2.0', '>= 2.0.1'
 gem 'rake'
-gem 'thin'
+gem 'thin', '>= 2.0.0'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
